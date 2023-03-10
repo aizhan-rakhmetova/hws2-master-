@@ -22,6 +22,7 @@ test('delete 1', () => {
     expect(newState.length).toBe(4)
 })
 test('delete 3', () => {
+    debugger;
     const newState = deleteAffair(initialState, 3)
     expect(newState.length).toBe(4)
 })
