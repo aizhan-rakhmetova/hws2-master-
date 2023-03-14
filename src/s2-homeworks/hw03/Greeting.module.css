@@ -11,9 +11,11 @@
 }
 
 .input:focus {
+    border-color: red!important;
 }
 
 .errorInput {
+    border-color: red!important;
 }
 
 .button {
