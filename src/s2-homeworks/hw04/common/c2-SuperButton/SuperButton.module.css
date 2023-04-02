@@ -1,4 +1,8 @@
 .button {
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 8px;
 }
 
 .disabled {
@@ -11,6 +15,8 @@
 }
 
 .red {
+    background: red;
+    color: white;
 }
 
 .default:hover {

@@ -21,3 +21,10 @@
     flex-direction: column;
     gap: 36px;
 }
+
+.customButton {
+    width: 200px;
+    outline: none;
+    border: none;
+    background: none;
+}

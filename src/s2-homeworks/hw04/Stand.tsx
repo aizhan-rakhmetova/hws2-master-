@@ -56,6 +56,7 @@ const Stand = () => {
                 {/*задизэйбленная кнопка:*/}
                 <div>
                     <SuperButton
+                        className={s.customButton}
                         id={'hw4-super-button-disabled'}
                         xType={'red'}
                         disabled
@@ -76,6 +77,7 @@ const Stand = () => {
 
             <div className={s.checkboxes}>
                 {/*чекбокс с текстом:*/}
+                {/*const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)*/}
                 <div>
                     <SuperCheckbox
                         id={'hw4-super-checkbox-with-text'}
